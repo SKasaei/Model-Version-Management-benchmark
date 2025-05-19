@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<configuration>
+	<feature automatic="selected" name="Model Version Management"/>
+	<feature automatic="selected" name="Model Versioning"/>
+	<feature automatic="selected" name="Artifact"/>
+	<feature automatic="selected" name="Representation"/>
+	<feature automatic="unselected" name="Model-based"/>
+	<feature manual="selected" name="File-based"/>
+	<feature automatic="selected" name="Storage"/>
+	<feature manual="selected" name="Snapshots"/>
+	<feature manual="selected" name="Deltas"/>
+	<feature automatic="selected" name="Change Detection"/>
+	<feature name="Log-Based"/>
+	<feature manual="selected" name="Comparison-Based"/>
+	<feature automatic="selected" name="Indexing"/>
+	<feature automatic="selected" manual="selected" name="Structured"/>
+	<feature automatic="unselected" name="Tree"/>
+	<feature automatic="unselected" name="Graph"/>
+	<feature automatic="unselected" name="Tabular"/>
+	<feature manual="selected" name="Custom"/>
+	<feature automatic="unselected" name="Unstructured"/>
+	<feature automatic="selected" name="Versioning Mechanism"/>
+	<feature manual="selected" name="Internal VCS"/>
+	<feature automatic="unselected" name="External VCS"/>
+	<feature automatic="selected" name="Locking"/>
+	<feature manual="selected" name="Optimistic"/>
+	<feature name="Pessimistic"/>
+	<feature automatic="selected" name="Versioning Architecture"/>
+	<feature manual="selected" name="Centralized"/>
+	<feature automatic="unselected" name="Distributed"/>
+	<feature automatic="selected" name="Collaboration Type"/>
+	<feature manual="selected" name="Real-time"/>
+	<feature automatic="unselected" name="Offline"/>
+	<feature automatic="unselected" name="Hybrid"/>
+	<feature name="Model Branching"/>
+	<feature name="Multiplicity"/>
+	<feature name="Multi"/>
+	<feature name="Single"/>
+	<feature name="Mechanism"/>
+	<feature name="Implicit"/>
+	<feature name="Explicit"/>
+	<feature name="Accessibility"/>
+	<feature name="Private"/>
+	<feature name="Public"/>
+	<feature name="Protected"/>
+	<feature name="Pattern"/>
+	<feature name="Long-Lived"/>
+	<feature name="Short-Lived"/>
+	<feature name="Scope"/>
+	<feature name="Full"/>
+	<feature name="Partial"/>
+	<feature name="Model Merging"/>
+	<feature name="Comparison"/>
+	<feature name="UUID"/>
+	<feature name="Heuristic "/>
+	<feature name="Conflict Management"/>
+	<feature name="Detection"/>
+	<feature name="Resolution"/>
+	<feature name="Prevention"/>
+	<feature name="Merging Strategy"/>
+	<feature name="Raw"/>
+	<feature name="Two-way"/>
+	<feature name="Three-way"/>
+	<feature name="Plurality"/>
+	<feature name="N-way"/>
+	<feature name="Pairwise"/>
+	<feature name="Validation"/>
+</configuration>
