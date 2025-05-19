@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<featureModel>
+	<properties>
+		<graphics key="autolayoutconstraints" value="false"/>
+		<graphics key="legendautolayout" value="true"/>
+		<graphics key="showconstraints" value="true"/>
+		<graphics key="showshortnames" value="false"/>
+		<graphics key="layout" value="horizontal"/>
+		<graphics key="showcollapsedconstraints" value="true"/>
+		<graphics key="legendhidden" value="false"/>
+		<graphics key="layoutalgorithm" value="1"/>
+	</properties>
+	<struct>
+		<and abstract="true" mandatory="true" name="Model Version Management">
+			<and mandatory="true" name="Model Versioning">
+				<and mandatory="true" name="Artifact">
+					<alt mandatory="true" name="Representation">
+						<feature name="Model-based"/>
+						<feature name="File-based"/>
+					</alt>
+					<or mandatory="true" name="Storage">
+						<feature name="Snapshots"/>
+						<feature name="Deltas"/>
+					</or>
+				</and>
+				<or mandatory="true" name="Change Detection">
+					<feature name="Log-Based"/>
+					<feature name="Comparison-Based"/>
+				</or>
+				<alt mandatory="true" name="Indexing">
+					<alt name="Structured">
+						<feature name="Tree"/>
+						<feature name="Graph"/>
+						<feature name="Tabular"/>
+						<feature name="Custom"/>
+					</alt>
+					<feature name="Unstructured"/>
+				</alt>
+				<alt mandatory="true" name="Versioning Mechanism">
+					<feature name="Internal VCS"/>
+					<feature name="External VCS"/>
+				</alt>
+				<or name="Locking">
+					<feature name="Optimistic"/>
+					<feature name="Pessimistic"/>
+				</or>
+				<alt mandatory="true" name="Versioning Architecture">
+					<feature name="Centralized"/>
+					<feature name="Distributed"/>
+				</alt>
+				<alt mandatory="true" name="Collaboration Type">
+					<feature name="Real-time"/>
+					<feature name="Offline"/>
+					<feature name="Hybrid"/>
+				</alt>
+			</and>
+			<and name="Model Branching">
+				<or name="Multiplicity">
+					<feature name="Multi"/>
+					<feature name="Single"/>
+				</or>
+				<or name="Mechanism">
+					<feature name="Implicit"/>
+					<feature name="Explicit"/>
+				</or>
+				<or name="Accessibility">
+					<feature name="Private"/>
+					<feature name="Public"/>
+					<feature name="Protected"/>
+				</or>
+				<or name="Pattern">
+					<feature name="Long-Lived"/>
+					<feature name="Short-Lived"/>
+				</or>
+				<or name="Scope">
+					<feature name="Full"/>
+					<feature name="Partial"/>
+				</or>
+			</and>
+			<and name="Model Merging">
+				<or mandatory="true" name="Comparison">
+					<feature name="UUID"/>
+					<feature name="Heuristic "/>
+				</or>
+				<or name="Conflict Management">
+					<feature name="Detection"/>
+					<feature name="Resolution"/>
+					<feature name="Prevention"/>
+				</or>
+				<or mandatory="true" name="Merging Strategy">
+					<feature name="Raw"/>
+					<feature name="Two-way"/>
+					<feature name="Three-way"/>
+				</or>
+				<or mandatory="true" name="Plurality">
+					<feature name="N-way"/>
+					<feature name="Pairwise"/>
+				</or>
+				<feature name="Validation"/>
+			</and>
+		</and>
+	</struct>
+</featureModel>
