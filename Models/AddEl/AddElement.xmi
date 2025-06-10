@@ -7,4 +7,5 @@
     xsi:schemaLocation="Families PrimitiveTypes#/0"
     lastName="Trump">
   <father firstName="Donald"/>
+  <mother firstName="Melania"/>
 </Families:Family>
