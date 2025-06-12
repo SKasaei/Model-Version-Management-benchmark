@@ -17,12 +17,7 @@ This repository serves both as a reference implementation and a reusable benchma
 
 ## 🧩 Repository Structure
 
-
-
-
-
-
-
+- **FeatureModel/**: Contains the feature model diagram, its XMI representation, and comparison tables of existing tools.
 - **FeatureModel/**: Contains the feature model diagram, its XMI representation, and comparison tables of existing tools.
 - **Scenarios/**: Includes eight folders, each representing a model versioning scenario with relevant model files and documentation.
 
