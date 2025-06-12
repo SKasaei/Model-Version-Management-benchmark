@@ -44,9 +44,9 @@ This repository is licensed under the MIT License. Feel free to use, modify, and
 
 For questions, contributions, or collaboration inquiries, please contact:
 
-**[Your Name]**  
+**[Name]**  
 
-Email: [your.email@domain.com]
+Email: [email@domain.com]
 
 ---
 
