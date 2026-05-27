@@ -27,7 +27,7 @@ This repository serves both as a reference implementation and a reusable benchma
 
 You can use the artifacts in this repository to:
 - Evaluate your model versioning approach/tool.
-> AMV M-Capability = UMV M-Capability×(V AF + BAF)
+> ### AMV M-Capability = UMV M-Capability×(V AF + BAF)
 >
 > UMVM-Capability = (NL1 ·wl(L1)) + (NL2 ·wl(L2)) + (NL3 ·wl(L3))
 > wl(L1) = 1, wl(L2) = 2, wl(L3) = 3
