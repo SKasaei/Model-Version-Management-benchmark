@@ -30,6 +30,7 @@ You can use the artifacts in this repository to:
 > $$ AMVM-Capability = UMVM-Capability × (VAF + BAF) $$
 >
 > $$ UMVM-Capability = (NL1 × wl(L1)) + (NL2 × wl(L2)) + (NL3 × wl(L3)) $$
+> 
 > $$ VCF = {\\frac{1}{Number Of Versioning Scenarios} \sum_{i=1}^{scenarios} v_i } $$
 > $$ BCF = {\\frac{1}{Number Of Branching Scenarios} \sum_{i=1}^{scenarios} b_i } $$
 > $$ VAF = VCF × {\\frac{1}{max(Versioning Question Values)} \sum_{i=1}^{8} f_i } $$
