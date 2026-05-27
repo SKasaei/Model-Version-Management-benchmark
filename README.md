@@ -1,8 +1,8 @@
 
 Welcome to the official repository for **BenchmarV**, a benchmark designed to systematically evaluate model versioning systems. This repository accompanies the paper:
 
-> **"A feature model and benchmark for model version management in collaborative modeling environments"**  
-> *[Author(s) Name]* – [Journal of Software: Evolution and Process , 2025]
+> M.-S. Kasaei, A. Fatemi, M. Sharbaf, B. Zamani, D. Blouin, **A feature model and benchmark for model version management in collaborative modeling environments**, Journal of Software: Evolution and Process 38 (5) (2026) e70102
+
 
 ## 📌 Overview
 
@@ -27,6 +27,9 @@ This repository serves both as a reference implementation and a reusable benchma
 
 You can use the artifacts in this repository to:
 - Evaluate your model versioning approach/tool.
+> AMV M-Capability = UMV M-Capability×(V AF + BAF)
+> UMVM-Capability = (NL1 ·wl(L1)) + (NL2 ·wl(L2)) + (NL3 ·wl(L3))
+> wl(L1) = 1, wl(L2) = 2, wl(L3) = 3
 - Reproduce the benchmark scenarios in your modeling environment.
 - Compare versioning capabilities.
 
@@ -46,7 +49,7 @@ For questions, contributions, or collaboration inquiries, please contact:
 
 **[Name]**  
 
-Email: [email@domain.com]
+Email: smskasaei@gmail.com
 
 ---
 
