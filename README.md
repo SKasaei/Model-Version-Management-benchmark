@@ -27,11 +27,11 @@ This repository serves both as a reference implementation and a reusable benchma
 
 You can use the artifacts in this repository to:
 - Evaluate your model versioning approach/tool.
-> ### AMVM-Capability = UMVM-Capability × (VAF + BAF)
+> ### $$ AMVM-Capability = UMVM-Capability × (VAF + BAF) $$
 >
 > ### UMVM-Capability = (NL1 × wl(L1)) + (NL2 × wl(L2)) + (NL3 × wl(L3)) $\Sigma$
 >
-> $$ f(x) = {\sqrt{5x^2+2x-1}+(x-2)^2 } $$
+> 
 > 
 > ### wl(L1) = 1, wl(L2) = 2, wl(L3) = 3
 - Reproduce the benchmark scenarios in your modeling environment.
