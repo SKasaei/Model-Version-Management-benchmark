@@ -58,7 +58,7 @@ This repository is licensed under the MIT License. Feel free to use, modify, and
 
 For questions, contributions, or collaboration inquiries, please contact:
 
-**[Name]**  
+**Mohammad-Sajad Kasaei**  
 
 Email: smskasaei@gmail.com
 
