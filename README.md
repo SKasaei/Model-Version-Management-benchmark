@@ -17,9 +17,9 @@ This repository serves both as a reference implementation and a reusable benchma
 
 ## 🧩 Repository Structure
 
-- **FeatureModel/**: Contains the feature model diagram, its XMI representation, and comparison tables of existing tools.
-- **Models/**: Includes eight folders, each representing a model versioning scenario with relevant model files. The history of versioning changes are recorded in this part.
-- **Scenarios/**: Includes the documentation of model versioning scenarios.
+- **FeatureModel**: Contains the feature model diagram, its XMI representation, and comparison tables of existing tools.
+- **Models**: Includes eight folders, each representing a model versioning scenario with relevant model files. The history of versioning changes are recorded in this part.
+- **Scenarios**: Includes the documentation of model versioning scenarios.
 
 ---
 
@@ -28,6 +28,7 @@ This repository serves both as a reference implementation and a reusable benchma
 You can use the artifacts in this repository to:
 - Evaluate your model versioning approach/tool.
 > AMV M-Capability = UMV M-Capability×(V AF + BAF)
+>
 > UMVM-Capability = (NL1 ·wl(L1)) + (NL2 ·wl(L2)) + (NL3 ·wl(L3))
 > wl(L1) = 1, wl(L2) = 2, wl(L3) = 3
 - Reproduce the benchmark scenarios in your modeling environment.
