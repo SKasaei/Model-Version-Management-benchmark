@@ -67,5 +67,6 @@ Email: smskasaei@gmail.com
 ## 🔗 Citation
 
 If you use BenchmarV in your work, please cite the original paper:
+> https://onlinelibrary.wiley.com/doi/10.1002/smr.70102
 
 
