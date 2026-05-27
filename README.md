@@ -27,6 +27,15 @@ This repository serves both as a reference implementation and a reusable benchma
 
 You can use the artifacts in this repository to:
 - Evaluate your model versioning approach/tool.
+- Reproduce the benchmark scenarios in your modeling environment.
+- Compare versioning capabilities.
+
+> Note: Artifacts are provided in standard formats (e.g., XMI and ECORE) for interoperability. If your tool uses a different format, you may adapt the models while preserving their structure and semantics.
+
+---
+
+## 📘 Formulas
+
 > $$ AMVM-Capability = UMVM-Capability × (VAF + BAF) $$
 
 > $$ UMVM-Capability = (NL1 × wl(L1)) + (NL2 × wl(L2)) + (NL3 × wl(L3)) $$
@@ -40,11 +49,6 @@ You can use the artifacts in this repository to:
 > $$ BAF = BCF × {\\frac{1}{max(Branching Question Values)} \sum_{i=1}^{5} g_i } $$
 
 > $$ wl(L1) = 1, wl(L2) = 2, wl(L3) = 3 $$
-
-- Reproduce the benchmark scenarios in your modeling environment.
-- Compare versioning capabilities.
-
-> Note: Artifacts are provided in standard formats (e.g., XMI and ECORE) for interoperability. If your tool uses a different format, you may adapt the models while preserving their structure and semantics.
 
 ---
 
