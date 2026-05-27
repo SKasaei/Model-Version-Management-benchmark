@@ -31,7 +31,7 @@ You can use the artifacts in this repository to:
 >
 > ### UMVM-Capability = (NL1 × wl(L1)) + (NL2 × wl(L2)) + (NL3 × wl(L3)) $\Sigma$
 >
-> BAF = BCF * (1 / max(Branching Question Values)) * sum(g_i for i=1 to 5)
+> BAF = BCF × (1 / max(Branching Question Values)) ∑_{i=1}^{5} gᵢ
 > 
 > ### wl(L1) = 1, wl(L2) = 2, wl(L3) = 3
 - Reproduce the benchmark scenarios in your modeling environment.
