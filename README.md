@@ -20,6 +20,7 @@ This repository serves both as a reference implementation and a reusable benchma
 - **FeatureModel**: Contains the feature model diagram, its XMI representation, and comparison tables of existing tools.
 - **Models**: Includes eight folders, each representing a model versioning scenario with relevant model files. The history of versioning changes are recorded in this part.
 - **Scenarios**: Includes the documentation of model versioning scenarios.
+- **Questionnaire**: Includes the documentation of a questionnaire for assessing MVMS capabilities .
 
 ---
 
